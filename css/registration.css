@@ -1,0 +1,103 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap');
+/* Google fonts */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: #ee0979;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: relative;
+}
+
+.regi_form{
+    width: 700px;
+    height: 700px;
+    background-color: #0000002e;
+    margin: auto;
+    position: relative;
+    top: 5%;
+}
+.title{
+    background: #5252522e;
+    padding: 10px 0px;
+}
+.title h2{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+}
+
+.main-innr-form{
+    width: 80%;
+    margin: auto;
+}
+
+.form-controll{
+    width: 99%;
+    margin: 15px 0px;
+}
+.form-controll .innr-form{
+    width: 96%;
+    padding: 12px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.innr{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.innr-form{
+    margin-top: 5px;
+}
+
+.sign-up{
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    margin-top: 8%;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    /* transition: 0.7s ease; */
+    font-weight: 700;
+}
+
+.sign-up:hover{
+    transition: 0;
+    transition: 0.7s ease;
+    color: white;
+    background-color: #b5b5b5;
+    }
+
+.form-controll p{
+    color: black;
+    font-size: 17px;
+    margin-top: 25px;
+    text-align: center;
+}
+.form-controll p > a{  
+    text-decoration: none;   
+    margin-left: 5px;    
+    color: white;
+    transition: 0.5s ease;
+}
+.form-controll p > a:hover{
+    transition: 0.5s ease;
+    border: 1px solid;
+    padding: 5px 10px;}
